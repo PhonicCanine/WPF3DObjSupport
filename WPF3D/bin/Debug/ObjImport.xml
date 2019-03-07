@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ObjImport
+</name>
+</assembly>
+<members>
+<member name="T:ObjImport.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ObjImport.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ObjImport.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ObjImport.ObjectHandler.Object3DHandler">
+ <summary>
+ Manages 3D objects. Most importantly, creating them from *.obj files.
+ </summary>
+</member>
+<member name="M:ObjImport.ObjectHandler.Object3DHandler.CreateMeshFromObj(System.String)">
+ <summary>
+ Creates a Model3DGroup from a given file as a .obj
+ </summary>
+ <param name="objname">Name of the object file.</param>
+ <returns>A new Model3DGroup based on the file.</returns>
+</member>
+<member name="M:ObjImport.ObjectHandler.SharedFileData.GetDataFromFile(System.String)">
+ <summary>
+ Gets data from a file in a thread-safe way. This means it only reads an individual file once, then stores the file in memory for the rest of the application's lifetime. Threadsafe, so accessing from any thread, at any time, is okay.
+ </summary>
+ <param name="fileName">The name of the file to be accessed.</param>
+ <returns>A list containing all of the file data.</returns>
+</member>
+<member name="M:ObjImport.ObjectHandler.SharedFileData.GetDataFromFileUnsafe(System.String)">
+ <summary>
+ Gets data from a file in an unsafe context, without regard for the filenumber or whether the file is already locked by a different thread. As such should only be used for reading the save file. Provides the additional benefit of noticing when the file has changed. Should only be called from one thread.
+ </summary>
+ <param name="fileName">The name of the file to be read from.</param>
+ <returns>A list containing all the lines of data in the file.</returns>
+</member>
+<member name="M:ObjImport.ObjectHandler.SharedFileData.WriteDataToFileUnsafe(System.String,System.Collections.Generic.List{System.String})">
+ <summary>
+ Writes data to a file without consideration of the need to check whether the filecode or file is open. Should not be used in any non-main thread threads.
+ </summary>
+ <param name="fileName">The name of the file to read from</param>
+ <param name="data">The data to write to the file</param>
+</member>
+</members>
+</doc>

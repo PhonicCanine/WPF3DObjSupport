@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WPF3D", "WPF3D\WPF3D.vbproj", "{821A6AEA-E015-4341-BA7B-434DC99145DE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ObjImport", "ObjImport\ObjImport.vbproj", "{803452AF-7848-423C-A4C3-BA6DA0529B72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{821A6AEA-E015-4341-BA7B-434DC99145DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821A6AEA-E015-4341-BA7B-434DC99145DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821A6AEA-E015-4341-BA7B-434DC99145DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821A6AEA-E015-4341-BA7B-434DC99145DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{803452AF-7848-423C-A4C3-BA6DA0529B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803452AF-7848-423C-A4C3-BA6DA0529B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803452AF-7848-423C-A4C3-BA6DA0529B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803452AF-7848-423C-A4C3-BA6DA0529B72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {450B1B07-03A0-4312-9B99-39B07D329C1E}
+	EndGlobalSection
+EndGlobal

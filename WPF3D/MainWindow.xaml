@@ -1,0 +1,26 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF3D"
+        mc:Ignorable="d"
+        Title="3D Sample" Height="450" Width="800">
+    <Grid Loaded="Grid_Loaded">
+        <Viewport3D Name="viewPort3D">
+            <!--We need a camera to see the model from-->
+            <Viewport3D.Camera>
+                <PerspectiveCamera Position = "0,0,-100" LookDirection = "0,0,1"
+               FieldOfView = "65" UpDirection = "0,1,0" />
+            </Viewport3D.Camera>
+            
+            <!--We need a light so that we can see the colors on the model-->
+            <ModelVisual3D>
+                <ModelVisual3D.Content>
+                    <DirectionalLight x:Name = "dirLightMain" Direction = "1,-1,1">
+                    </DirectionalLight>
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
+        </Viewport3D>
+    </Grid>
+</Window>

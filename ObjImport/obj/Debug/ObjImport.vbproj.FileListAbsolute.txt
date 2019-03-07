@@ -1,0 +1,10 @@
+E:\Onedrive\Software year 11\WPF3D\ObjImport\obj\Debug\ObjImport.vbprojAssemblyReference.cache
+E:\Onedrive\Software year 11\WPF3D\ObjImport\obj\Debug\ObjImport.Resources.resources
+E:\Onedrive\Software year 11\WPF3D\ObjImport\obj\Debug\ObjImport.vbproj.GenerateResource.cache
+E:\Onedrive\Software year 11\WPF3D\ObjImport\obj\Debug\ObjImport.vbproj.CoreCompileInputs.cache
+E:\Onedrive\Software year 11\WPF3D\ObjImport\bin\Debug\ObjImport.dll
+E:\Onedrive\Software year 11\WPF3D\ObjImport\bin\Debug\ObjImport.pdb
+E:\Onedrive\Software year 11\WPF3D\ObjImport\bin\Debug\ObjImport.xml
+E:\Onedrive\Software year 11\WPF3D\ObjImport\obj\Debug\ObjImport.dll
+E:\Onedrive\Software year 11\WPF3D\ObjImport\obj\Debug\ObjImport.xml
+E:\Onedrive\Software year 11\WPF3D\ObjImport\obj\Debug\ObjImport.pdb
