@@ -15,6 +15,6 @@ will define a material called Green_0, with 0.5 opacity, then set the opacity ba
 ## Usage
 Simply import the built DLL (ObjImport/bin/ObjImport.dll), and use the function "CreateMeshFromObj(filename)", where filename is the name of the obj file you would like to import.
 
-A sample of the use of this library may be found in <code>WPF3D/MainWindow.xaml.vb</pre>.
+A sample of the use of this library may be found in <pre>WPF3D/MainWindow.xaml.vb</pre>.
 
 Textures mapped to the object will likely perform poorly, due to implementation, but otherwise, any object should load reasonably quickly, and be optimised for the ViewPort3D.
